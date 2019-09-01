@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    title: 'NTYJ 831',
+    description: 'All about Jesus!',
+    siteUrl: 'https://nothankyoujesus.com',
+    author: 'CraigChrist',
+    twitter: 'CraigChrist',
     adsense: '',
   },
   pathPrefix: '/',
@@ -76,14 +76,6 @@ module.exports = {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: '',
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-netlify',
-      options: {
-        mergeSecurityHeaders: true,
-        mergeLinkHeaders: true,
-        mergeCachingHeaders: true,
       },
     },
     'gatsby-plugin-catch-links',
