@@ -37,11 +37,6 @@ const Post = ({ data, options }) => {
         </div>
         <div className="content">
           <p>{description}</p>
-          {fluid ? (
-            <Img fluid={fluid} style={{ display: 'block', margin: '0 auto' }} />
-          ) : (
-            ''
-          )}
         </div>
         <div
           className="content"
