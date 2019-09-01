@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'NTYJ 831',
-    description: 'All about Jesus!',
+    description: 'All about saying no thanks to Jesus!',
     siteUrl: 'https://nothankyoujesus.com',
     author: 'CraigChrist',
     twitter: 'CraigChrist',
