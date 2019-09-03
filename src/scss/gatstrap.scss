@@ -1,0 +1,32 @@
+body {
+  background: rgb(147,147,147);
+  background: radial-gradient(circle, rgba(147,147,147,1) 4%, rgba(27,23,15,1) 100%);
+  padding: 0;
+  color: #fff;
+
+  a {
+    color: cadetblue;
+    text-decoration: none;
+  }
+
+.ntyj-masthead {
+  background-color: #fff;
+  padding: 32px 24px;
+  position: relative;
+
+  .ntyj-logo {
+    &:before {
+      content: "";
+      display: block;
+      width: 534px;
+      height: 325px;
+      background-image: url("/src/content/images/header-gradients.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: 10%;
+    }
+  }
+}
+
+}
