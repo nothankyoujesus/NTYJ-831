@@ -30,7 +30,7 @@
     "gatsby-source-filesystem": "2.1.18",
     "gatsby-transformer-remark": "2.6.19",
     "gatsby-transformer-sharp": "2.2.12",
-    "jquery": "^1.9.1",
+    "jquery": "^3.4.0",
     "popper.js": "^1.15.0",
     "preact": "^10.0.0-beta.1",
     "typescript": "^3.6.2"
